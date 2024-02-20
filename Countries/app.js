@@ -21,7 +21,7 @@ function displayCountry(country){
 function setCountry(data){
     for(let country of data){
         const html = `
-            <div class="col-3 w-50">
+            <div class="col-3 w-25 mb-3">
                 <div class="card h-100">
                     <img src="${country.flags.png}" class="card-img-top">
                     <div class="card-body">
